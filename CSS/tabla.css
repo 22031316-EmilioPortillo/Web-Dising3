@@ -1,0 +1,37 @@
+#tabla td{
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    border-style: double;
+    height: 100px;
+  }
+
+  #students td, th
+  {
+    width: 20%;
+    border-radius: 0%;
+    background-color: white;
+    border-color: black;
+    padding: 10px 10px;
+    
+  }
+  
+  #students td:nth-child(odd), th:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
+
+
+  #employees th, td
+  {
+      border-radius: 0%;
+      border-color: rgb(0, 0, 0);
+      text-align: left;
+      border-bottom: 1px solid black;
+  }
+
+  #employees td:hover
+  {
+    background-color: #4fc7c7;
+  }
+
